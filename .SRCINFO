@@ -6,10 +6,12 @@ pkgbase = mingw-w64-libvirt-glib
 	arch = any
 	license = LGPL
 	makedepends = mingw-w64-configure
+	makedepends = mingw-w64-glib2
 	makedepends = gettext
 	makedepends = libxslt
 	makedepends = python
 	makedepends = perl
+	makedepends = intltool
 	depends = mingw-w64-crt
 	depends = mingw-w64-libvirt
 	options = !strip
@@ -22,4 +24,3 @@ pkgbase = mingw-w64-libvirt-glib
 	sha256sums = SKIP
 
 pkgname = mingw-w64-libvirt-glib
-
